@@ -6,7 +6,6 @@ import AddIcon from '@material-ui/icons/Add';
 
 export class Taskboard extends Component {
 	render() {
-		console.log(this.props)
 		return (
 			<div>
 				<Button variant="contained" color="primary" >

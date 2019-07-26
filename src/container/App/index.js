@@ -8,7 +8,6 @@ import Taskboard from '../Taskboard';
 
 export class App extends Component {
   render() {
-    console.log(this.props)
     return (
       <ThemeProvider theme={theme}>
        <Taskboard></Taskboard>
